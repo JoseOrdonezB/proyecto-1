@@ -11,6 +11,12 @@ export const useInputHandler = ({
     if ('+-*/%'.includes(key)) return setOperator(key)
     if (key === '=') return compute()
     if (key === '+/-') toggleSign()
+    if (key === 'JP') {
+      setDisplay('🐐')
+      setAcc(null)
+      setOp(null)
+      setClear(true)
+    }
   }
 
   const inputNumber = key => {
