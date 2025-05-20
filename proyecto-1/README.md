@@ -1,12 +1,23 @@
-# React + Vite
+# Calculadora - Proyecto Sistemas Web
+Calculadora hecha con React, con principio de componentes, testing y diseño limpio.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instalación
+```bash
+npm install
+```
 
-Currently, two official plugins are available:
+## Testing
+```bash
+npm run test
+```
+Los test incluyen:
+- Suma de dos números
+- Error al obtener un número negativo
+- No permite ingresar más de 9 digitos
+- Cambia el signo a negativo cuando hay espacio
+- Error al obtener un resultado con más de 9 digitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Linting
+```bash
+npm run lint
+```
