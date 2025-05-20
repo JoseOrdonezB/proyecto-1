@@ -21,3 +21,8 @@ Los test incluyen:
 ```bash
 npm run lint
 ```
+
+## Storybook
+```bash
+npm run storybook
+```
