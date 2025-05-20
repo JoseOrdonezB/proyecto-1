@@ -1,3 +1,4 @@
+import React from 'react'
 import Display from './Display'
 import Keyboard from './Keyboard'
 import useCalculatorLogic from '../hooks/useCalculatorLogic'
